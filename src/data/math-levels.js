@@ -6,6 +6,7 @@ const LEVELS = [
     instruction: "Sort by how clearly you can see through each thing.",
     showNames: true,
     maxOnBelt: 4,
+    beltTravelRate: 0.076,
     bins: [
       { id: "transparent", label: "Transparent", art: "windowglass" },
       { id: "translucent", label: "Translucent", art: "cloth" },
@@ -23,7 +24,8 @@ const LEVELS = [
     title: "What Is It Made Of?",
     instruction: "Sort each thing by its material.",
     showNames: true,
-    maxOnBelt: 4,
+    maxOnBelt: 3,
+    beltTravelRate: 0.07,
     bins: [
       { id: "wood", label: "Wood", art: "table" },
       { id: "metal", label: "Metal", art: "spoon" },
@@ -42,6 +44,7 @@ const LEVELS = [
     instruction: "Sort things made by nature or made by people.",
     showNames: true,
     maxOnBelt: 4,
+    beltTravelRate: 0.08,
     bins: [
       { id: "natural", label: "Natural", art: "mango" },
       { id: "artificial", label: "Artificial", art: "pen" },
