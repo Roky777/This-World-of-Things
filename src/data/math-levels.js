@@ -14,10 +14,10 @@ const LEVELS = [
     ],
     items: [
       item("Window glass", "windowglass", "transparent"), item("Spectacle glass", "spectacleglass", "transparent"),
-      item("Clear glass bottle", "glassbottle", "transparent"), item("Thin coloured glass", "colouredglass", "transparent"),
-      item("Thin coloured plastic sheet", "plasticsheet", "translucent"), item("Thin cloth", "cloth", "translucent"),
-      item("Paper lampshade", "lampshade", "translucent"), item("Wooden door", "door", "opaque"),
-      item("Plate", "plate", "opaque"), item("Table", "table", "opaque"),
+      item("Clear glass bottle", "glassbottle", "transparent"), item("Clear coloured glass", "colouredglass", "transparent"),
+      item("Frosted plastic sheet", "plasticsheet", "translucent"), item("Sheer cloth", "cloth", "translucent"),
+      item("Thin paper lampshade", "lampshade", "translucent"), item("Wooden door", "door", "opaque"),
+      item("Ceramic plate", "plate", "opaque"), item("Wooden table", "table", "opaque"),
     ],
   },
   {
@@ -33,10 +33,10 @@ const LEVELS = [
       { id: "plastic", label: "Plastic", art: "switch" },
     ],
     items: [
-      item("Table", "table", "wood"), item("Chair", "chair", "wood"), item("Door", "door", "wood"),
-      item("Pencil", "pencil", "wood"), item("Door hinge", "hinge", "metal"), item("Nail", "nail", "metal"),
-      item("Spoon", "spoon", "metal"), item("Windowpane", "windowpane", "glass"),
-      item("Light bulb", "bulb", "glass"), item("Electric switch", "switch", "plastic"),
+      item("Wooden table", "table", "wood"), item("Wooden chair", "chair", "wood"), item("Wooden door", "door", "wood"),
+      item("Wooden pencil", "pencil", "wood"), item("Metal door hinge", "hinge", "metal"), item("Iron nail", "nail", "metal"),
+      item("Metal spoon", "spoon", "metal"), item("Glass windowpane", "windowpane", "glass"),
+      item("Glass light bulb", "bulb", "glass"), item("Plastic switch cover", "switch", "plastic"),
     ],
   },
   {
